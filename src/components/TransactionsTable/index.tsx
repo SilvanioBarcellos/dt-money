@@ -1,4 +1,3 @@
-
 import { useTransactions } from '../../hooks/useTransactions';
 import { Container } from "./styles";
 
@@ -9,9 +8,7 @@ export function TransactionsTable() {
     if( transactions.length === 0) {
         return <div>loading</div>
     }
-    console.log(transactions)
-
-    
+    console.log(transactions)   
 
     return(
         <Container>
@@ -47,7 +44,6 @@ export function TransactionsTable() {
                         </tr>
                     
                     ))}
-
                     
                 </tbody>
             </table>

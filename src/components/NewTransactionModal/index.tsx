@@ -73,10 +73,10 @@ export function NewTransactionModal( {isOpen, onRequestClose}: NewTransactionMod
             </button>
 
             <Container onSubmit={handleCreateNewTransaction}>
-                <h2>Cadastra transação</h2>
+                <h2>Register transaction</h2>
 
                 <input
-                    placeholder='Titulo'
+                    placeholder='Title'
                     value={title}
                     onChange={event => setTitle(event.target.value)}
                 />
@@ -96,7 +96,7 @@ export function NewTransactionModal( {isOpen, onRequestClose}: NewTransactionMod
                         activeColor="green"
                     >
                         <img src={incomeImg} alt="Entrada" />
-                        <span>Entrada</span>
+                        <span>entry</span>
                     </RadioBox>
 
                     <RadioBox
@@ -111,13 +111,13 @@ export function NewTransactionModal( {isOpen, onRequestClose}: NewTransactionMod
                 </TransactionTypeContainer>
 
                 <input
-                placeholder='categoria'
+                placeholder='category'
                 value={category}
                 onChange={event => setCategory(event.target.value)}   
                 />
 
                 <button type='submit'>
-                    cadastrar
+                register
                 </button>
             </Container>
 

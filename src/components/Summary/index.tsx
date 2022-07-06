@@ -37,7 +37,7 @@ export function Summary() {
         <Container>
            <div>
                <header>
-                  <p>Entradas</p>
+                  <p>entry</p>
                   <img src={incomeImg} alt="Entradas" />
                </header>
                <strong>
@@ -50,8 +50,8 @@ export function Summary() {
 
            <div>
                <header>
-                  <p>Saidas</p>
-                  <img src={outcomeImg} alt="saidas" />
+                  <p>Exit</p>
+                  <img src={outcomeImg} alt="Exit" />
                </header>
                <strong>
                   {summary.withdraws}
